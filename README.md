@@ -3,10 +3,10 @@ The R version used here is 3.2.0 (2015-04-16).
 
 The code in run_analysis.R is used to prepare tidy data for Samsung data. 
 
-#####First step is to combine test and train data togather.
+#####First step is to combine test and train data together.
 - All data (including X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt) are read into R by function ```read.table```.
-- Test data and train data are combined seperately by function ```cbind```.
-- Test data and train data are combined togather by function ```rbind```.
+- Test data and train data are combined separately by function ```cbind```.
+- Test data and train data are combined together by function ```rbind```.
 
 #####Next step is to assign names to each column in the data table generated in previous step.
 - Variable names are read into R from file features.txt. The second column in the file includes all variable names.
